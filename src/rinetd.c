@@ -1086,7 +1086,7 @@ static int readArgs (int argc, char **argv, RinetdOptions *options)
 					"manpage for more information.\n");
 				exit (0);
 			case 'v':
-				printf ("rinetd %s\n", PACKAGE_VERSION);
+				printf ("rinetd %s modified by momiji - https://github.com/momiji/rinetd\n", PACKAGE_VERSION);
 				exit (0);
 			case '?':
 			default:
