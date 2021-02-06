@@ -17,6 +17,9 @@
 #	define LOG_INFO stdout
 #else
 #	include <syslog.h>
+#	define syslog fprintf
+#	define LOG_ERR stderr
+#	define LOG_INFO stdout
 #endif /* _WIN32 */
 
 #include <stdint.h>
